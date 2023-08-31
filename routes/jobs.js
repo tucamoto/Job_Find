@@ -4,7 +4,7 @@ const Job     = require('../models/Job');
 
 // route test
 router.get('/test', (req, res) => {
-  res.send('deu certo');
+  res.send('test Ok');
 });
 
 // vacancy detail -> view/1, view/2
